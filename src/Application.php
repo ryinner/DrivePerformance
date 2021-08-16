@@ -7,6 +7,8 @@ use Phalcon\Di\FactoryDefault;
 use Phalcon\Di\ServiceProviderInterface;
 use Phalcon\Http\ResponseInterface;
 use Phalcon\Mvc\Application as MvcApplication;
+use Phalcon\Config;
+use Phalcon\Loader;
 
 class Application
 {
@@ -53,6 +55,11 @@ class Application
      */
     public function run(): string
     {
+        // $configModules = new Config(require $this->appPath . '/config/modules.php');
+
+        // $this->app->registerModules($configModules->toArray());
+        // $this->loader();
+
         $baseUri = $this->di->getShared('url')->getBaseUri();
         $position = strpos($_SERVER['REQUEST_URI'], $baseUri) + strlen($baseUri);
         $uri = '/' . substr($_SERVER['REQUEST_URI'], $position);
@@ -97,5 +104,14 @@ class Application
             $provider = new $providerClass;
             $provider->register($this->di);
         }
+    }
+    /**
+     * Loader
+     *
+     * Register modules
+     */
+    private function loader()
+    {
+
     }
 }
