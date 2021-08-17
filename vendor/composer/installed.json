@@ -2823,12 +2823,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f3dde0a4810e2b99e444df0530be3b98d360ca96"
+                "reference": "2ced53fa9e1986c74ee591567e6f07949c161032"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f3dde0a4810e2b99e444df0530be3b98d360ca96",
-                "reference": "f3dde0a4810e2b99e444df0530be3b98d360ca96",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2ced53fa9e1986c74ee591567e6f07949c161032",
+                "reference": "2ced53fa9e1986c74ee591567e6f07949c161032",
                 "shasum": ""
             },
             "require": {
@@ -2866,7 +2866,7 @@
                 "ext-xdebug": "*",
                 "phpunit/php-invoker": "^2.0.0"
             },
-            "time": "2021-08-13T14:06:04+00:00",
+            "time": "2021-08-16T06:00:25+00:00",
             "bin": [
                 "phpunit"
             ],
@@ -4916,19 +4916,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "33b214712c39c3fa54ad449035cc4ac1bbf95cd3"
+                "reference": "8f64c6101e33264eacbf9cddfa424a1f06412b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/33b214712c39c3fa54ad449035cc4ac1bbf95cd3",
-                "reference": "33b214712c39c3fa54ad449035cc4ac1bbf95cd3",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8f64c6101e33264eacbf9cddfa424a1f06412b5c",
+                "reference": "8f64c6101e33264eacbf9cddfa424a1f06412b5c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0.2",
-                "symfony/polyfill-ctype": "~1.8"
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.8"
             },
-            "time": "2021-08-13T07:43:57+00:00",
+            "time": "2021-08-14T21:40:35+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -5810,12 +5811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "41b657155fdc35794746dcaaf799c8631061a4a3"
+                "reference": "2b3a8e5bfa1431c1660dfa6421a10ed6b5525464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/41b657155fdc35794746dcaaf799c8631061a4a3",
-                "reference": "41b657155fdc35794746dcaaf799c8631061a4a3",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2b3a8e5bfa1431c1660dfa6421a10ed6b5525464",
+                "reference": "2b3a8e5bfa1431c1660dfa6421a10ed6b5525464",
                 "shasum": ""
             },
             "require": {
@@ -5826,15 +5827,15 @@
                 "symfony/polyfill-php81": "^1.22"
             },
             "conflict": {
-                "symfony/console": "<4.4"
+                "symfony/console": "<5.3"
             },
             "require-dev": {
-                "symfony/console": "^4.4|^5.0|^6.0"
+                "symfony/console": "^5.3|^6.0"
             },
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
             },
-            "time": "2021-07-29T06:20:44+00:00",
+            "time": "2021-08-14T21:43:09+00:00",
             "bin": [
                 "Resources/bin/yaml-lint"
             ],

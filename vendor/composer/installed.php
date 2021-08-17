@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '87408f90b8791d6a324d1104963ba710d9ba4eb0',
         'name' => 'ryinner/driveperformance',
         'dev' => true,
     ),
@@ -447,7 +447,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
-            'reference' => 'f3dde0a4810e2b99e444df0530be3b98d360ca96',
+            'reference' => '2ced53fa9e1986c74ee591567e6f07949c161032',
             'dev_requirement' => true,
         ),
         'psalm/psalm' => array(
@@ -578,12 +578,12 @@
             'dev_requirement' => false,
         ),
         'ryinner/driveperformance' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '87408f90b8791d6a324d1104963ba710d9ba4eb0',
             'dev_requirement' => false,
         ),
         'sebastian/code-unit-reverse-lookup' => array(
@@ -791,7 +791,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/filesystem',
             'aliases' => array(),
-            'reference' => '33b214712c39c3fa54ad449035cc4ac1bbf95cd3',
+            'reference' => '8f64c6101e33264eacbf9cddfa424a1f06412b5c',
             'dev_requirement' => false,
         ),
         'symfony/finder' => array(
@@ -904,7 +904,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
-            'reference' => '41b657155fdc35794746dcaaf799c8631061a4a3',
+            'reference' => '2b3a8e5bfa1431c1660dfa6421a10ed6b5525464',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(

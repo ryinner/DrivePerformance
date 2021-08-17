@@ -48,7 +48,7 @@ final class Versions
   'symfony/config' => '5.4.x-dev@ba4d9ca1e56b9c22f9c3d772d3a72bcfabe0bc7a',
   'symfony/console' => '5.4.x-dev@05185ba47605665f3db5e2fa97eafeea64c2d4ab',
   'symfony/deprecation-contracts' => 'dev-main@6f981ee24cf69ee7ce9736146d1c57c2780598a8',
-  'symfony/filesystem' => '6.0.x-dev@33b214712c39c3fa54ad449035cc4ac1bbf95cd3',
+  'symfony/filesystem' => '6.0.x-dev@8f64c6101e33264eacbf9cddfa424a1f06412b5c',
   'symfony/polyfill-ctype' => 'dev-main@46cd95797e9df938fdd2b03693b5fca5e64b01ce',
   'symfony/polyfill-intl-grapheme' => 'dev-main@16880ba9c5ebe3642d1995ab866db29270b36535',
   'symfony/polyfill-intl-normalizer' => 'dev-main@8590a5f561694770bdcd3f9b5c69dde6945028e8',
@@ -58,7 +58,7 @@ final class Versions
   'symfony/polyfill-php81' => 'dev-main@e66119f3de95efc359483f810c4c3e6436279436',
   'symfony/service-contracts' => 'v2.4.0@f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb',
   'symfony/string' => '6.0.x-dev@088eb6f6ec7ac822f7cf688f64975532dd51bdc8',
-  'symfony/yaml' => '5.4.x-dev@41b657155fdc35794746dcaaf799c8631061a4a3',
+  'symfony/yaml' => '5.4.x-dev@2b3a8e5bfa1431c1660dfa6421a10ed6b5525464',
   'vlucas/phpdotenv' => '3.6.x-dev@5e679f7616db829358341e2d5cccbd18773bdab8',
   'amphp/amp' => 'dev-master@59a8414f1652f1ec50ac10c813387dc4ef039fa0',
   'amphp/byte-stream' => 'dev-master@7a64a9ad336fc5e1e70b1c1fc1e9618a7027332e',
@@ -96,7 +96,7 @@ final class Versions
   'phpunit/php-text-template' => '1.2.1@31f8b717e51d9a2afca6c9f046f5d69fc27c8686',
   'phpunit/php-timer' => '2.1.x-dev@2454ae1765516d20c4ffe103d85a58a9a3bd5662',
   'phpunit/php-token-stream' => 'dev-master@76fc0567751d177847112bd3e26e4890529c98da',
-  'phpunit/phpunit' => '8.5.x-dev@f3dde0a4810e2b99e444df0530be3b98d360ca96',
+  'phpunit/phpunit' => '8.5.x-dev@2ced53fa9e1986c74ee591567e6f07949c161032',
   'psr/event-dispatcher' => 'dev-master@aa4f89e91c423b516ff226c50dc83f824011c253',
   'psr/http-client' => 'dev-master@22b2ef5687f43679481615605d7a15c557ce85b1',
   'psr/http-factory' => 'dev-master@36fa03d50ff82abcae81860bdaf4ed9a1510c7cd',
@@ -126,7 +126,7 @@ final class Versions
   'webmozart/assert' => '1.9.1@bafc69caeb4d49c39fd0779086c03a3738cbb389',
   'webmozart/glob' => '4.4.x-dev@36c35b0a51eece57a6a631decb51048e17192401',
   'webmozart/path-util' => '2.3.0@d939f7edc24c9a1bb9c0dee5cb05d8e859490725',
-  'ryinner/driveperformance' => '1.0.0+no-version-set@',
+  'ryinner/driveperformance' => 'dev-master@87408f90b8791d6a324d1104963ba710d9ba4eb0',
 );
 
     private function __construct()
