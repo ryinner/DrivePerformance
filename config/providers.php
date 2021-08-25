@@ -1,5 +1,6 @@
 <?php
 
+use Ryinner\DrivePerformance\Providers\AssetsProvider;
 use Ryinner\DrivePerformance\Providers\ConfigProvider;
 use Ryinner\DrivePerformance\Providers\DbProvider;
 use Ryinner\DrivePerformance\Providers\DispatcherProvider;
@@ -16,6 +17,7 @@ use Ryinner\DrivePerformance\Providers\ViewProvider;
 return [
     ConfigProvider::class,
     DispatcherProvider::class,
+    AssetsProvider::class,
     DbProvider::class,
     LoggerProvider::class,
     ModelsMetadataProvider::class,

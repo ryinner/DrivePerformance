@@ -3,7 +3,8 @@
     "description": "api in driveperfomance",
     "autoload": {
         "psr-4": {
-            "Ryinner\\Api\\": "src/"
+            "Ryinner\\Api\\": "src/",
+            "Ryinner\\Api\\Models\\": "../models/"
         }
     },
     "authors": [
