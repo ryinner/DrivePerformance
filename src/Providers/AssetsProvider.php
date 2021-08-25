@@ -26,7 +26,8 @@ class AssetsProvider implements ServiceProviderInterface
         $di->setShared($this->providerName, function () use ($assetManager) {
 
             $assetManager->collection('css')
-                ->addCss('css/main.css');
+                ->addCss('css/main.css')
+                ->addCss('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap',false);
 
             $assetManager->collection('js')
                 ->addJs('js/main.js');
