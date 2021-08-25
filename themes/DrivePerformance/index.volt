@@ -8,6 +8,9 @@
     {{ assets.outputCss('css') }}
 </head>
 <body>
+    <div class="container">
+        {{ content() }}
+    </div>
     {{ assets.outputJs('js') }}
 </body>
 </html>

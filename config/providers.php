@@ -17,9 +17,9 @@ use Ryinner\DrivePerformance\Providers\ViewProvider;
 return [
     ConfigProvider::class,
     DispatcherProvider::class,
-    AssetsProvider::class,
     DbProvider::class,
     LoggerProvider::class,
+    AssetsProvider::class,
     ModelsMetadataProvider::class,
     RouterProvider::class,
     SessionProvider::class,

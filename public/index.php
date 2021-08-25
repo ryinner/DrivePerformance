@@ -8,11 +8,11 @@ $rootPath = dirname(__DIR__);
 try {
     require_once $rootPath . '/vendor/autoload.php';
 
+    Dotenv\Dotenv::create($rootPath)->load();
+
     /**
      * Start DrivePerformance
      */
-
-    Dotenv\Dotenv::create($rootPath)->load();
     echo (new DrivePerformanceApplication($rootPath))->run();
 
 } catch (Exception $e){
