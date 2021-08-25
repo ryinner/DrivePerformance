@@ -15,7 +15,8 @@
     "minimum-stability": "dev",
     "require": {
         "ext-openssl": "*",
-        "ext-phalcon": "~5.0.0"
+        "ext-phalcon": "~5.0.0",
+        "vlucas/phpdotenv": "^3.6"
     },
     "require-dev": {
         "phalcon/ide-stubs": "4.0.6"

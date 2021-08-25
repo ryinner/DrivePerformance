@@ -1,8 +1,8 @@
 <?php
 
-use Phalcon\Mvc\Micro\Collection;
 use Phalcon\Mvc\Micro;
 use Phalcon\DI\FactoryDefault;
+use Phalcon\Mvc\Micro\Collection;
 use Phalcon\Db\Adapter\Pdo\Mysql as Database;
 
 try{
@@ -11,19 +11,21 @@ try{
     /**
      * Read the configuration
      */
-    $config = include $rootPath . '../../config/config.php';
+    Dotenv\Dotenv::create(__DIR__ . '../../../../')->load();
+
+    $config = include $rootPath . '../../../config/apiconfig.php';
 
     $app = new Micro();
 
     $di = new FactoryDefault();
-
+    
     $di->set('db', function () use ($config) {
         return new Database(
             [
-                "host"     => $config->database->host,
-                "username" => $config->database->username,
-                "password" => $config->database->password,
-                "dbname"   => $config->database->name
+                "host"     => $config['database']['host'],
+                "username" => $config['database']['username'],
+                "password" => $config['database']['password'],
+                "dbname"   => $config['database']['dbname']
             ]
         );
     });

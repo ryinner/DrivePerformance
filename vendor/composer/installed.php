@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '87408f90b8791d6a324d1104963ba710d9ba4eb0',
+        'reference' => NULL,
         'name' => 'ryinner/driveperformance',
         'dev' => true,
     ),
@@ -175,7 +175,7 @@
             'aliases' => array(
                 0 => '1.x-dev',
             ),
-            'reference' => 'c6522afe5540d5fc46675043d3ed5a45a740b27c',
+            'reference' => 'fff576ac850c045158a250e7e27666e146e78d18',
             'dev_requirement' => true,
         ),
         'composer/semver' => array(
@@ -371,7 +371,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpdocumentor/type-resolver',
             'aliases' => array(),
-            'reference' => 'b456db85fc80ecb2fed8441c9c89dbcb945735a9',
+            'reference' => '7b2df704cbe99a7b0522c7d5d7b7c5ea61b196bb',
             'dev_requirement' => true,
         ),
         'phpoption/phpoption' => array(
@@ -447,7 +447,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
-            'reference' => '2ced53fa9e1986c74ee591567e6f07949c161032',
+            'reference' => 'ae9ead4785ad1708b3abadb36a4c69f5a3f8dfa9',
             'dev_requirement' => true,
         ),
         'psalm/psalm' => array(
@@ -578,12 +578,12 @@
             'dev_requirement' => false,
         ),
         'ryinner/driveperformance' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '87408f90b8791d6a324d1104963ba710d9ba4eb0',
+            'reference' => NULL,
             'dev_requirement' => false,
         ),
         'sebastian/code-unit-reverse-lookup' => array(
@@ -619,7 +619,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/environment',
             'aliases' => array(),
-            'reference' => 'd47bbbad83711771f167c72d4e3f25f7fcc1f8b0',
+            'reference' => 'a8cb2aa3eca438e75a4b7895f04bc8f5f990bc49',
             'dev_requirement' => true,
         ),
         'sebastian/exporter' => array(
@@ -709,7 +709,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/browser-kit',
             'aliases' => array(),
-            'reference' => 'd248dfe309a172ececbbf7b989a9b0ffe7c4256e',
+            'reference' => 'a8e3e666f2e130ba8f8f4180b6e8d787d64bb55b',
             'dev_requirement' => true,
         ),
         'symfony/config' => array(
@@ -718,7 +718,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/config',
             'aliases' => array(),
-            'reference' => 'ba4d9ca1e56b9c22f9c3d772d3a72bcfabe0bc7a',
+            'reference' => 'a495b26f102be42622e57c3f20e59e4f69cf7e1c',
             'dev_requirement' => false,
         ),
         'symfony/console' => array(
@@ -727,7 +727,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => '05185ba47605665f3db5e2fa97eafeea64c2d4ab',
+            'reference' => '1fd7d6a6bfe31c7876f51b4b8ca6ec33f653d890',
             'dev_requirement' => false,
         ),
         'symfony/css-selector' => array(
@@ -736,7 +736,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/css-selector',
             'aliases' => array(),
-            'reference' => '7fb120adc7f600a59027775b224c13a33530dd90',
+            'reference' => 'f7d6c0f659682b080af1c787b7e7eaecc2886033',
             'dev_requirement' => true,
         ),
         'symfony/deprecation-contracts' => array(
@@ -756,7 +756,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/dom-crawler',
             'aliases' => array(),
-            'reference' => 'df10124232b644ddf570cd9145fb4e1a7e08815a',
+            'reference' => '196dbc0e89e366bf75ae5c1b84a13c1b158cf6c7',
             'dev_requirement' => true,
         ),
         'symfony/event-dispatcher' => array(
@@ -765,7 +765,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/event-dispatcher',
             'aliases' => array(),
-            'reference' => 'd63cd066776882475d99f96934cffa8e07ba5b76',
+            'reference' => 'e442d4a1cc170f95f16e897bd70743ec33e1c74d',
             'dev_requirement' => true,
         ),
         'symfony/event-dispatcher-contracts' => array(
@@ -791,7 +791,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/filesystem',
             'aliases' => array(),
-            'reference' => '8f64c6101e33264eacbf9cddfa424a1f06412b5c',
+            'reference' => '53b0d515786862c1fb13f5a9bbfe329815c547a1',
             'dev_requirement' => false,
         ),
         'symfony/finder' => array(
@@ -800,7 +800,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
-            'reference' => '1680d3877d0a4619f41314b0f1707a64302d445a',
+            'reference' => '5d7d3b68d3685579cd2771b37e347d8819b16ca9',
             'dev_requirement' => true,
         ),
         'symfony/polyfill-ctype' => array(
@@ -895,7 +895,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/string',
             'aliases' => array(),
-            'reference' => '088eb6f6ec7ac822f7cf688f64975532dd51bdc8',
+            'reference' => '51c05cd5d377159808afdbddb7ea6227980ec395',
             'dev_requirement' => false,
         ),
         'symfony/yaml' => array(
@@ -904,7 +904,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
-            'reference' => '2b3a8e5bfa1431c1660dfa6421a10ed6b5525464',
+            'reference' => '9cb82982ab2268c1336a6056e9e2068efdcdce9d',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(

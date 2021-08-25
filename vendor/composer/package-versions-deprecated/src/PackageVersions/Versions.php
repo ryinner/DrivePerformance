@@ -45,10 +45,10 @@ final class Versions
   'psr/log' => '1.1.4@d49695b909c3b7628b6289db5479a1c204601f11',
   'psr/simple-cache' => 'dev-master@5a7b96b1dda5d957e01bc1bfe77dcca09c5a7474',
   'robmorgan/phinx' => '0.11.x-dev@3cdde73e0c33c410e076108b3e1603fabb5b330d',
-  'symfony/config' => '5.4.x-dev@ba4d9ca1e56b9c22f9c3d772d3a72bcfabe0bc7a',
-  'symfony/console' => '5.4.x-dev@05185ba47605665f3db5e2fa97eafeea64c2d4ab',
+  'symfony/config' => '5.4.x-dev@a495b26f102be42622e57c3f20e59e4f69cf7e1c',
+  'symfony/console' => '5.4.x-dev@1fd7d6a6bfe31c7876f51b4b8ca6ec33f653d890',
   'symfony/deprecation-contracts' => 'dev-main@6f981ee24cf69ee7ce9736146d1c57c2780598a8',
-  'symfony/filesystem' => '6.0.x-dev@8f64c6101e33264eacbf9cddfa424a1f06412b5c',
+  'symfony/filesystem' => '6.0.x-dev@53b0d515786862c1fb13f5a9bbfe329815c547a1',
   'symfony/polyfill-ctype' => 'dev-main@46cd95797e9df938fdd2b03693b5fca5e64b01ce',
   'symfony/polyfill-intl-grapheme' => 'dev-main@16880ba9c5ebe3642d1995ab866db29270b36535',
   'symfony/polyfill-intl-normalizer' => 'dev-main@8590a5f561694770bdcd3f9b5c69dde6945028e8',
@@ -57,8 +57,8 @@ final class Versions
   'symfony/polyfill-php80' => 'dev-main@1100343ed1a92e3a38f9ae122fc0eb21602547be',
   'symfony/polyfill-php81' => 'dev-main@e66119f3de95efc359483f810c4c3e6436279436',
   'symfony/service-contracts' => 'v2.4.0@f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb',
-  'symfony/string' => '6.0.x-dev@088eb6f6ec7ac822f7cf688f64975532dd51bdc8',
-  'symfony/yaml' => '5.4.x-dev@2b3a8e5bfa1431c1660dfa6421a10ed6b5525464',
+  'symfony/string' => '6.0.x-dev@51c05cd5d377159808afdbddb7ea6227980ec395',
+  'symfony/yaml' => '5.4.x-dev@9cb82982ab2268c1336a6056e9e2068efdcdce9d',
   'vlucas/phpdotenv' => '3.6.x-dev@5e679f7616db829358341e2d5cccbd18773bdab8',
   'amphp/amp' => 'dev-master@59a8414f1652f1ec50ac10c813387dc4ef039fa0',
   'amphp/byte-stream' => 'dev-master@7a64a9ad336fc5e1e70b1c1fc1e9618a7027332e',
@@ -70,7 +70,7 @@ final class Versions
   'codeception/module-phpbrowser' => '1.x-dev@8bc71d603883e918f93cebd2ddd897f087104eb1',
   'codeception/phpunit-wrapper' => '8.1.4@f41335f0b4dd17cf7bbc63e87943b3ae72a8bbc3',
   'codeception/stub' => '3.7.0@468dd5fe659f131fc997f5196aad87512f9b1304',
-  'composer/package-versions-deprecated' => 'dev-master@c6522afe5540d5fc46675043d3ed5a45a740b27c',
+  'composer/package-versions-deprecated' => 'dev-master@fff576ac850c045158a250e7e27666e146e78d18',
   'composer/semver' => 'dev-main@31f3ea725711245195f62e54ffa402d8ef2fdba9',
   'composer/xdebug-handler' => '1.4.x-dev@f27e06cd9675801df441b3656569b328e04aa37c',
   'dnoegel/php-xdg-base-dir' => 'v0.1.1@8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd',
@@ -89,14 +89,14 @@ final class Versions
   'phar-io/version' => '3.1.0@bae7c545bef187884426f042434e561ab1ddb182',
   'phpdocumentor/reflection-common' => 'dev-master@a0eeab580cbdf4414fef6978732510a36ed0a9d6',
   'phpdocumentor/reflection-docblock' => 'dev-master@c5ac781da36459457837159b308fe88912e07a78',
-  'phpdocumentor/type-resolver' => '1.x-dev@b456db85fc80ecb2fed8441c9c89dbcb945735a9',
+  'phpdocumentor/type-resolver' => '1.x-dev@7b2df704cbe99a7b0522c7d5d7b7c5ea61b196bb',
   'phpspec/prophecy' => '1.13.0@be1996ed8adc35c3fd795488a653f4b518be70ea',
   'phpunit/php-code-coverage' => '7.0.x-dev@819f92bba8b001d4363065928088de22f25a3a48',
   'phpunit/php-file-iterator' => '2.0.x-dev@575fbe4836a85e3fc7f76bac9d4541a5b2872d49',
   'phpunit/php-text-template' => '1.2.1@31f8b717e51d9a2afca6c9f046f5d69fc27c8686',
   'phpunit/php-timer' => '2.1.x-dev@2454ae1765516d20c4ffe103d85a58a9a3bd5662',
   'phpunit/php-token-stream' => 'dev-master@76fc0567751d177847112bd3e26e4890529c98da',
-  'phpunit/phpunit' => '8.5.x-dev@2ced53fa9e1986c74ee591567e6f07949c161032',
+  'phpunit/phpunit' => '8.5.x-dev@ae9ead4785ad1708b3abadb36a4c69f5a3f8dfa9',
   'psr/event-dispatcher' => 'dev-master@aa4f89e91c423b516ff226c50dc83f824011c253',
   'psr/http-client' => 'dev-master@22b2ef5687f43679481615605d7a15c557ce85b1',
   'psr/http-factory' => 'dev-master@36fa03d50ff82abcae81860bdaf4ed9a1510c7cd',
@@ -105,7 +105,7 @@ final class Versions
   'sebastian/code-unit-reverse-lookup' => '1.0.x-dev@1de8cd5c010cb153fcd68b8d0f64606f523f7619',
   'sebastian/comparator' => '3.0.x-dev@1071dfcef776a57013124ff35e1fc41ccd294758',
   'sebastian/diff' => '3.0.x-dev@14f72dd46eaf2f2293cbe79c93cc0bc43161a211',
-  'sebastian/environment' => '4.2.x-dev@d47bbbad83711771f167c72d4e3f25f7fcc1f8b0',
+  'sebastian/environment' => '4.2.x-dev@a8cb2aa3eca438e75a4b7895f04bc8f5f990bc49',
   'sebastian/exporter' => '3.1.x-dev@6b853149eab67d4da22291d36f5b0631c0fd856e',
   'sebastian/global-state' => '3.0.x-dev@474fb9edb7ab891665d3bfc6317f42a0a150454b',
   'sebastian/object-enumerator' => '3.0.x-dev@e67f6d32ebd0c749cf9d1dbd9f226c727043cdf2',
@@ -115,18 +115,18 @@ final class Versions
   'sebastian/type' => '1.1.x-dev@0150cfbc4495ed2df3872fb31b26781e4e077eb4',
   'sebastian/version' => '2.0.1@99732be0ddb3361e16ad77b68ba41efc8e979019',
   'squizlabs/php_codesniffer' => '3.5.5@73e2e7f57d958e7228fce50dc0c61f58f017f9f6',
-  'symfony/browser-kit' => '5.4.x-dev@d248dfe309a172ececbbf7b989a9b0ffe7c4256e',
-  'symfony/css-selector' => '5.4.x-dev@7fb120adc7f600a59027775b224c13a33530dd90',
-  'symfony/dom-crawler' => '5.4.x-dev@df10124232b644ddf570cd9145fb4e1a7e08815a',
-  'symfony/event-dispatcher' => '5.4.x-dev@d63cd066776882475d99f96934cffa8e07ba5b76',
+  'symfony/browser-kit' => '5.4.x-dev@a8e3e666f2e130ba8f8f4180b6e8d787d64bb55b',
+  'symfony/css-selector' => '5.4.x-dev@f7d6c0f659682b080af1c787b7e7eaecc2886033',
+  'symfony/dom-crawler' => '5.4.x-dev@196dbc0e89e366bf75ae5c1b84a13c1b158cf6c7',
+  'symfony/event-dispatcher' => '5.4.x-dev@e442d4a1cc170f95f16e897bd70743ec33e1c74d',
   'symfony/event-dispatcher-contracts' => 'dev-main@9af5330a64a6aebd8eabad988b50b77d8a9ec8a7',
-  'symfony/finder' => '5.4.x-dev@1680d3877d0a4619f41314b0f1707a64302d445a',
+  'symfony/finder' => '5.4.x-dev@5d7d3b68d3685579cd2771b37e347d8819b16ca9',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
   'vimeo/psalm' => '3.x-dev@19aa905f7c3c7350569999a93c40ae91ae4e1626',
   'webmozart/assert' => '1.9.1@bafc69caeb4d49c39fd0779086c03a3738cbb389',
   'webmozart/glob' => '4.4.x-dev@36c35b0a51eece57a6a631decb51048e17192401',
   'webmozart/path-util' => '2.3.0@d939f7edc24c9a1bb9c0dee5cb05d8e859490725',
-  'ryinner/driveperformance' => 'dev-master@87408f90b8791d6a324d1104963ba710d9ba4eb0',
+  'ryinner/driveperformance' => '1.0.0+no-version-set@',
 );
 
     private function __construct()
@@ -141,7 +141,7 @@ final class Versions
      */
     public static function rootPackageName() : string
     {
-        if (!class_exists(InstalledVersions::class, false) || !(method_exists(InstalledVersions::class, 'getAllRawData') ? InstalledVersions::getAllRawData() : InstalledVersions::getRawData())) {
+        if (!self::composer2ApiUsable()) {
             return self::ROOT_PACKAGE_NAME;
         }
 
@@ -159,7 +159,7 @@ final class Versions
      */
     public static function getVersion(string $packageName): string
     {
-        if (class_exists(InstalledVersions::class, false) && (method_exists(InstalledVersions::class, 'getAllRawData') ? InstalledVersions::getAllRawData() : InstalledVersions::getRawData())) {
+        if (self::composer2ApiUsable()) {
             return InstalledVersions::getPrettyVersion($packageName)
                 . '@' . InstalledVersions::getReference($packageName);
         }
@@ -171,5 +171,26 @@ final class Versions
         throw new OutOfBoundsException(
             'Required package "' . $packageName . '" is not installed: check your ./vendor/composer/installed.json and/or ./composer.lock files'
         );
+    }
+
+    private static function composer2ApiUsable(): bool
+    {
+        if (!class_exists(InstalledVersions::class, false)) {
+            return false;
+        }
+
+        if (method_exists(InstalledVersions::class, 'getAllRawData')) {
+            $rawData = InstalledVersions::getAllRawData();
+            if (count($rawData) === 1 && count($rawData[0]) === 0) {
+                return false;
+            }
+        } else {
+            $rawData = InstalledVersions::getRawData();
+            if ($rawData === []) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

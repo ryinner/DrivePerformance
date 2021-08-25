@@ -1,0 +1,6 @@
+# Drop Vendor, var with cache and logs, composer.lock
+vendor/
+var/logs
+var/cache
+src/Api/vendor
+composer.lock
